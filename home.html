@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url(Images/Zuby.jpg);
+        font-family: Rubik, Arial;
+      }
+
+      form {
+        text-align: center;
+        line-height: 30px;
+        height: 80%;
+        overflow: auto;
+      }
+
+      form hr {
+        width: 15%;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      #overlay {
+        width: 80%;
+        margin: 3% auto;
+        height: 95vh;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 40px;
+      }
+
+      #logo {
+        height: 100px;
+        display: block;
+        margin: auto;
+      }
+
+      .activities label,
+      .cheesy label {
+        margin-right: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="Images/Dubai-Airport.jpg.webp" alt="Airport Logo" id="logo" />
+      <hr />
+      <form action="Europe.html">
+        <h1>Choose your destination!</h1>
+        <section class="climate">
+          <label for="weather">Where woud you like to go ?</label>
+          <select name="destination" id="continent">
+            <option value="Africa">Africa</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="BikiniBottom">BikiniBottom</option>
+          </select>
+        </section>
+        <hr />
+
+        <section class="things">
+          <label for="things"
+            >What would you like to do when you get there ?</label
+          >
+          <input type="text" name="things" id="things" />
+        </section>
+        <hr />
+
+        <section class="cooked">
+          <label for="degrees">How would you like the weather to be ?</label>
+          <br />
+          <span>Cold</span>
+          <input
+            type="range"
+            name="degrees"
+            id="degrees"
+            value="11"
+            min="0.5"
+            max="10"
+          />
+          <span>Hot</span>
+        </section>
+        <hr />
+
+        <section class="activities">
+          <span>What activities excite you the most?</span>
+          <br />
+          <input
+            type="checkbox"
+            name="activities"
+            id="Tourism"
+            value="Tourism"
+          />
+          <label for="Tourism">Tourism</label>
+          <input type="checkbox" name="activities" id="Sports" value="Sports" />
+          <label for="Sports">Sports</label>
+          <input
+            type="checkbox"
+            name="activities"
+            id="Leisure"
+            value="Leisure"
+          />
+          <label for="Leisure">Leisure</label>
+        </section>
+        <hr />
+
+        <section class="rather">
+          <span>Would you like your experience to be?</span>
+          <br />
+          <input type="radio" name="rather" id="expensive" value="expensive" />
+          <label for="expensive">Luxurious</label>
+          <input type="radio" name="rather" id="middle" value="middle" />
+          <label for="middlde">Pocket friendly</label>
+          <input type="radio" name="rather" id="dangerous" value="dangerous" />
+          <label for="dangerous">Dangerous</label>
+        </section>
+        <hr />
+
+        <section class="transit">
+          <label for="means">What is your favorite means of transit ?</label>
+          <select name="means" id="means">
+            <option value="By Train">By Train</option>
+            <option value="walk">On Foot</option>
+            <option value="anything">Anything really</option>
+            <option value="Air">Aircraft</option>
+            <option value="water">CruiseShip</option>
+          </select>
+        </section>
+        <hr />
+        <section class="extra-info">
+          <label for="extra">Anything else you want to add?</label>
+          <br />
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr />
+
+        <section class="submission">
+          <input type="submit" value="Submit" />
+        </section>
+      </form>
+    </section>
+  </body>
+</html>

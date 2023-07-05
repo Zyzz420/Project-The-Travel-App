@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-image: url(Images/img2.wallspic.com-reflection-night-cityscape-metropolis-skyline-1920x1180.jpg);
+        }
+        form {
+          background-color: white;
+          border-radius: 5px;
+          padding: 20px;
+          width: 400px;
+          margin: 50px auto;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          margin-top: 300px;
+        }
+        label {
+          display: block;
+          margin-bottom: 10px;
+        }
+        input[type="text"],
+        
+        input[type="password"] {
+          width: 100%;
+          padding: 10px;
+          border-radius: 3px;
+          border: 5px black;
+          margin-bottom: 20px;;
+          box-sizing: border-box;
+        }
+        input[type="submit"] {
+          background-color:blue;
+          color:white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+        input[type="submit"]:hover {
+          background-color:blue;
+        }
+        h1{
+            text-align: center;
+        }
+      </style>
+</head>
+<body>
+  
+    <form  action="home.html" >
+      <h1>Sign Up</h1>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <a href="home.html"><input type="submit" value="Sign Up"></a>
+    </form>
+  </body>
+</html>
+</body>
+</html>
