@@ -1,0 +1,28 @@
+{
+    "destinations": [
+      {
+        "name": "Africa",
+        "endpoint":"Africa.html",
+        "activities": ["Tourism", "Sports", "Leisure"],
+        "preferred_experience": ["middle","expensive","dangerous"],
+        "favorite_transit": ["By Train","Aircraft","Anything really","CruiseShip"],
+        "extra_info": ""
+      },
+      {
+        "name": "Asia",
+       "endpoint":"Asia.html",
+        "activities": ["Tourism", "Sports","Leisure"],
+        "preferred_experience": ["middle","expensive","dangerous"],
+        "favorite_transit": ["By Train","Aircraft","Anything really","CruiseShip"],
+        "extra_info": ""
+      },
+      {
+        "name": "Europe",
+        "endpoint":"Europe.html",
+        "activities": ["Tourism", "Leisure","Sports"],
+        "preferred_experience": ["middle","expensive","dangerous"],
+        "favorite_transit": ["By Train","Aircraft","Anything really","CruiseShip"],
+        "extra_info": ""
+      }
+    ]
+  }
