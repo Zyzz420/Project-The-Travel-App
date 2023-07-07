@@ -1,5 +1,6 @@
 <h1>Title</h1>
-Code challenge week 2
+The Travel app
+**N/B:the main page is the Travel.html file.**
 <h1>Table of content</h1>
 <li><a href="Title">Title</a>
 <li><a href="Description">Description</a>
