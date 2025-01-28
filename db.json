@@ -1,28 +1,36 @@
 {
-    "destinations": [
-      {
-        "name": "Africa",
-        "endpoint":"Africa.html",
-        "activities": ["Tourism", "Sports", "Leisure"],
-        "preferred_experience": ["middle","expensive","dangerous"],
-        "favorite_transit": ["By Train","Aircraft","Anything really","CruiseShip"],
-        "extra_info": ""
-      },
-      {
-        "name": "Asia",
-       "endpoint":"Asia.html",
-        "activities": ["Tourism", "Sports","Leisure"],
-        "preferred_experience": ["middle","expensive","dangerous"],
-        "favorite_transit": ["By Train","Aircraft","Anything really","CruiseShip"],
-        "extra_info": ""
-      },
-      {
-        "name": "Europe",
-        "endpoint":"Europe.html",
-        "activities": ["Tourism", "Leisure","Sports"],
-        "preferred_experience": ["middle","expensive","dangerous"],
-        "favorite_transit": ["By Train","Aircraft","Anything really","CruiseShip"],
-        "extra_info": ""
-      }
-    ]
-  }
+  "destinations": [
+    {
+      "name": "Africa",
+      "endpoint": "Africa.html",
+      "activities": ["Tourism", "Sports", "Leisure"],
+      "preferred_experience": ["middle", "expensive", "dangerous"],
+      "favorite_transit": ["By Train", "Aircraft", "Anything really", "CruiseShip"],
+      "extra_info": ""
+    },
+    {
+      "name": "Asia",
+      "endpoint": "Asia.html",
+      "activities": ["Tourism", "Sports", "Leisure"],
+      "preferred_experience": ["middle", "expensive", "dangerous"],
+      "favorite_transit": ["By Train", "Aircraft", "Anything really", "CruiseShip"],
+      "extra_info": ""
+    },
+    {
+      "name": "Europe",
+      "endpoint": "Europe.html",
+      "activities": ["Tourism", "Leisure", "Sports"],
+      "preferred_experience": ["middle", "expensive", "dangerous"],
+      "favorite_transit": ["By Train", "Aircraft", "Anything really", "CruiseShip"],
+      "extra_info": ""
+    },
+    {
+      "name": "Bikini Bottom",
+      "endpoint": "BikiniBottom.html",
+      "activities": ["Jellyfishing", "Krusty Krab dining", "Bubble-blowing"],
+      "preferred_experience": ["fun", "quirky", "adventurous"],
+      "favorite_transit": ["By Boat", "Submarine", "Anything really"],
+      "extra_info": "A vibrant underwater city from the animated series 'SpongeBob SquarePants.'"
+    }
+  ]
+}
